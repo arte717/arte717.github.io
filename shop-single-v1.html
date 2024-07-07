@@ -1,0 +1,1435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Mirrored from cartzilla.createx.studio/shop-single-v1.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 12 Aug 2022 18:09:42 GMT -->
+  <!-- Added by HTTrack --><meta
+    http-equiv="content-type"
+    content="text/html;charset=utf-8"
+  /><!-- /Added by HTTrack -->
+  <head>
+    <meta charset="utf-8" />
+    <title>Excellara</title>
+    <!-- SEO Meta Tags-->
+    <meta
+      name="description"
+      content="Cartzilla - Bootstrap E-commerce Template"
+    />
+    <meta
+      name="keywords"
+      content="bootstrap, shop, e-commerce, market, modern, responsive,  business, mobile, bootstrap, html5, css3, js, gallery, slider, touch, creative, clean"
+    />
+    <meta name="author" content="Createx Studio" />
+    <!-- Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Favicon and Touch Icons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="img2/loguito3.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img2/loguito3.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img2/loguito3.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="mask-icon" color="#fe6a6a" href="safari-pinned-tab.svg" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Vendor Styles including: Font Icons, Plugins, etc.-->
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="vendor/simplebar/dist/simplebar.min.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="vendor/tiny-slider/dist/tiny-slider.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="vendor/drift-zoom/dist/drift-basic.min.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="vendor/lightgallery.js/dist/css/lightgallery.min.css"
+    />
+    <!-- Main Theme Styles + Bootstrap-->
+    <link rel="stylesheet" media="screen" href="css/index.css" />
+    <!-- Google Tag Manager-->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "../www.googletagmanager.com/gtm5445.html?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-WKV3GT5");
+    </script>
+  </head>
+  <!-- Body-->
+  <body class="handheld-toolbar-enabled">
+    <!-- Google Tag Manager (noscript)-->
+    <noscript>
+      <iframe
+        src="http://www.googletagmanager.com/ns.html?id=GTM-WKV3GT5"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe>
+    </noscript>
+    <!-- Sign in / sign up modal-->
+    <div class="modal fade" id="signin-modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header bg-secondary">
+            <ul class="nav nav-tabs card-header-tabs" role="tablist">
+              <li class="nav-item">
+                <a
+                  class="nav-link fw-medium active"
+                  href="#signin-tab"
+                  data-bs-toggle="tab"
+                  role="tab"
+                  aria-selected="true"
+                  ><i class="ci-unlocked me-2 mt-n1"></i>Sign in</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link fw-medium"
+                  href="#signup-tab"
+                  data-bs-toggle="tab"
+                  role="tab"
+                  aria-selected="false"
+                  ><i class="ci-user me-2 mt-n1"></i>Sign up</a
+                >
+              </li>
+            </ul>
+            <button
+              class="btn-close"
+              type="button"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body tab-content py-4">
+            <form
+              class="needs-validation tab-pane fade show active"
+              autocomplete="off"
+              novalidate
+              id="signin-tab"
+            >
+              <div class="mb-3">
+                <label class="form-label" for="si-email">Email address</label>
+                <input
+                  class="form-control"
+                  type="email"
+                  id="si-email"
+                  placeholder="johndoe@example.com"
+                  required
+                />
+                <div class="invalid-feedback">
+                  Please provide a valid email address.
+                </div>
+              </div>
+              <div class="mb-3">
+                <label class="form-label" for="si-password">Password</label>
+                <div class="password-toggle">
+                  <input
+                    class="form-control"
+                    type="password"
+                    id="si-password"
+                    required
+                  />
+                  <label
+                    class="password-toggle-btn"
+                    aria-label="Show/hide password"
+                  >
+                    <input class="password-toggle-check" type="checkbox" /><span
+                      class="password-toggle-indicator"
+                    ></span>
+                  </label>
+                </div>
+              </div>
+              <div class="mb-3 d-flex flex-wrap justify-content-between">
+                <div class="form-check mb-2">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="si-remember"
+                  />
+                  <label class="form-check-label" for="si-remember"
+                    >Remember me</label
+                  >
+                </div>
+                <a class="fs-sm" href="#">Forgot password?</a>
+              </div>
+              <button
+                class="btn btn-primary btn-shadow d-block w-100"
+                type="submit"
+              >
+                Sign in
+              </button>
+            </form>
+            <form
+              class="needs-validation tab-pane fade"
+              autocomplete="off"
+              novalidate
+              id="signup-tab"
+            >
+              <div class="mb-3">
+                <label class="form-label" for="su-name">Full name</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  id="su-name"
+                  placeholder="John Doe"
+                  required
+                />
+                <div class="invalid-feedback">Please fill in your name.</div>
+              </div>
+              <div class="mb-3">
+                <label for="su-email">Email address</label>
+                <input
+                  class="form-control"
+                  type="email"
+                  id="su-email"
+                  placeholder="johndoe@example.com"
+                  required
+                />
+                <div class="invalid-feedback">
+                  Please provide a valid email address.
+                </div>
+              </div>
+              <div class="mb-3">
+                <label class="form-label" for="su-password">Password</label>
+                <div class="password-toggle">
+                  <input
+                    class="form-control"
+                    type="password"
+                    id="su-password"
+                    required
+                  />
+                  <label
+                    class="password-toggle-btn"
+                    aria-label="Show/hide password"
+                  >
+                    <input class="password-toggle-check" type="checkbox" /><span
+                      class="password-toggle-indicator"
+                    ></span>
+                  </label>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label class="form-label" for="su-password-confirm"
+                  >Confirm password</label
+                >
+                <div class="password-toggle">
+                  <input
+                    class="form-control"
+                    type="password"
+                    id="su-password-confirm"
+                    required
+                  />
+                  <label
+                    class="password-toggle-btn"
+                    aria-label="Show/hide password"
+                  >
+                    <input class="password-toggle-check" type="checkbox" /><span
+                      class="password-toggle-indicator"
+                    ></span>
+                  </label>
+                </div>
+              </div>
+              <button
+                class="btn btn-primary btn-shadow d-block w-100"
+                type="submit"
+              >
+                Sign up
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main class="page-wrapper">
+      <!-- Size chart modal-->
+      <div class="modal fade" id="size-chart">
+        <div class="modal-dialog modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header bg-secondary">
+              <ul
+                class="nav nav-tabs card-header-tabs"
+                role="tablist"
+                style="margin-bottom: -1rem"
+              >
+                <li class="nav-item">
+                  <a
+                    class="nav-link fw-medium active"
+                    href="#mens"
+                    data-bs-toggle="tab"
+                    role="tab"
+                    aria-controls="mens"
+                    aria-selected="true"
+                    >Men's sizes</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link fw-medium"
+                    href="#womens"
+                    data-bs-toggle="tab"
+                    role="tab"
+                    aria-controls="womens"
+                    aria-selected="false"
+                    >Women's sizes</a
+                  >
+                </li>
+              </ul>
+              <button
+                class="btn-close"
+                type="button"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body p-0">
+              <div class="tab-content">
+                <div
+                  class="tab-pane fade show active"
+                  id="mens"
+                  role="tabpanel"
+                >
+                  <div class="table-responsive">
+                    <table class="table fs-sm text-center mb-0">
+                      <thead>
+                        <tr>
+                          <th class="align-middle bg-secondary">
+                            US<br />Sizes
+                          </th>
+                          <th class="align-middle">Euro<br />Sizes</th>
+                          <th class="align-middle">UK<br />Sizes</th>
+                          <th class="align-middle">Inches</th>
+                          <th class="align-middle">CM</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="bg-secondary fw-medium">6</td>
+                          <td>39</td>
+                          <td>5.5</td>
+                          <td>9.25"</td>
+                          <td>23.5</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">6.5</td>
+                          <td>39</td>
+                          <td>6</td>
+                          <td>9.5"</td>
+                          <td>24.1</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">7</td>
+                          <td>40</td>
+                          <td>6.5</td>
+                          <td>9.625"</td>
+                          <td>24.4</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">7.5</td>
+                          <td>40-41</td>
+                          <td>7</td>
+                          <td>9.75"</td>
+                          <td>24.8</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">8</td>
+                          <td>41</td>
+                          <td>7.5</td>
+                          <td>9.9375"</td>
+                          <td>25.4</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">8.5</td>
+                          <td>41-42</td>
+                          <td>8</td>
+                          <td>10.125"</td>
+                          <td>25.7</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">9</td>
+                          <td>42</td>
+                          <td>8.5</td>
+                          <td>10.25"</td>
+                          <td>26</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">9.5</td>
+                          <td>42-43</td>
+                          <td>9</td>
+                          <td>10.4375"</td>
+                          <td>26.7</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">10</td>
+                          <td>43</td>
+                          <td>9.5</td>
+                          <td>10.5625"</td>
+                          <td>27</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">10.5</td>
+                          <td>43-44</td>
+                          <td>10</td>
+                          <td>10.75"</td>
+                          <td>27.3</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">11</td>
+                          <td>44</td>
+                          <td>10.5</td>
+                          <td>10.9375"</td>
+                          <td>27.9</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">11.5</td>
+                          <td>44-45</td>
+                          <td>11</td>
+                          <td>11.125"</td>
+                          <td>28.3</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">12</td>
+                          <td>45</td>
+                          <td>11.5</td>
+                          <td>11.25"</td>
+                          <td>28.6</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">13</td>
+                          <td>46</td>
+                          <td>12.5</td>
+                          <td>11.5625"</td>
+                          <td>29.4</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">14</td>
+                          <td>47</td>
+                          <td>13.5</td>
+                          <td>11.875"</td>
+                          <td>30.2</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">15</td>
+                          <td>48</td>
+                          <td>14.5</td>
+                          <td>12.1875"</td>
+                          <td>31</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">16</td>
+                          <td>49</td>
+                          <td>15.5</td>
+                          <td>12.5"</td>
+                          <td>31.8</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="womens" role="tabpanel">
+                  <div class="table-responsive">
+                    <table class="table fs-sm text-center mb-0">
+                      <thead>
+                        <tr>
+                          <th class="align-middle bg-secondary">
+                            US<br />Sizes
+                          </th>
+                          <th class="align-middle">Euro<br />Sizes</th>
+                          <th class="align-middle">UK<br />Sizes</th>
+                          <th class="align-middle">Inches</th>
+                          <th class="align-middle">CM</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="bg-secondary fw-medium">4</td>
+                          <td>35</td>
+                          <td>2</td>
+                          <td>8.1875"</td>
+                          <td>20.8</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">4.5</td>
+                          <td>35</td>
+                          <td>2.5</td>
+                          <td>8.375"</td>
+                          <td>21.3</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">5</td>
+                          <td>35-36</td>
+                          <td>3</td>
+                          <td>8.5"</td>
+                          <td>21.6</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">5.5</td>
+                          <td>36</td>
+                          <td>3.5</td>
+                          <td>8.75"</td>
+                          <td>22.2</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">6</td>
+                          <td>36-37</td>
+                          <td>4</td>
+                          <td>8.875"</td>
+                          <td>22.5</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">6.5</td>
+                          <td>37</td>
+                          <td>4.5</td>
+                          <td>9.0625"</td>
+                          <td>23</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">7</td>
+                          <td>37-38</td>
+                          <td>5</td>
+                          <td>9.25"</td>
+                          <td>23.5</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">7.5</td>
+                          <td>38</td>
+                          <td>5.5</td>
+                          <td>9.375"</td>
+                          <td>23.8</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">8</td>
+                          <td>38-39</td>
+                          <td>6</td>
+                          <td>9.5"</td>
+                          <td>24.1</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">8.5</td>
+                          <td>39</td>
+                          <td>6.5</td>
+                          <td>9.6875"</td>
+                          <td>24.6</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">9</td>
+                          <td>39-40</td>
+                          <td>7</td>
+                          <td>9.875"</td>
+                          <td>25.1</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">9.5</td>
+                          <td>40</td>
+                          <td>7.5</td>
+                          <td>10"</td>
+                          <td>25.4</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">10</td>
+                          <td>40-41</td>
+                          <td>8</td>
+                          <td>10.1875"</td>
+                          <td>25.9</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">10.5</td>
+                          <td>41</td>
+                          <td>8.5</td>
+                          <td>10.3125"</td>
+                          <td>26.2</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">11</td>
+                          <td>41-42</td>
+                          <td>9</td>
+                          <td>10.5"</td>
+                          <td>26.7</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">11.5</td>
+                          <td>42</td>
+                          <td>9.5</td>
+                          <td>10.6875"</td>
+                          <td>27.1</td>
+                        </tr>
+                        <tr>
+                          <td class="bg-secondary fw-medium">12</td>
+                          <td>42-43</td>
+                          <td>10</td>
+                          <td>10.875"</td>
+                          <td>27.6</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Navbar 3 Level (Light)-->
+      <header class="shadow-sm">
+        <!-- Topbar-->
+
+        <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page.-->
+        <div class="navbar-sticky bg-light">
+          <div class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+              <a
+                class="navbar-brand d-none d-sm-block flex-shrink-0"
+                href="index.html"
+                ><img src="img2/loguito2.png" width="142" alt="Cartzilla" /></a
+              ><a
+                class="navbar-brand d-sm-none flex-shrink-0 me-2"
+                href="index.html"
+                ><img src="img2/loguito2.png" width="74" alt="Cartzilla"
+              /></a>
+              <div class="input-group d-none d-lg-flex mx-4">
+                <input
+                  class="form-control rounded-end pe-5"
+                  type="text"
+                  placeholder="Search for products"
+                /><i
+                  class="ci-search position-absolute top-50 end-0 translate-middle-y text-muted fs-base me-3"
+                ></i>
+              </div>
+              <div
+                class="navbar-toolbar d-flex flex-shrink-0 align-items-center"
+              >
+                  </a
+                ><a
+                  class="navbar-tool d-none d-lg-flex"
+                  href="account-wishlist.html"
+                  ><span class="navbar-tool-tooltip">Wishlist</span>
+                  <div class="navbar-tool-icon-box">
+                    <i class="navbar-tool-icon ci-heart"></i></div></a
+                ><a
+                  class="navbar-tool ms-1 ms-lg-0 me-n1 me-lg-2"
+                  href="#signin-modal"
+                  data-bs-toggle="modal"
+                >
+                  <div class="navbar-tool-icon-box">
+                    <i class="navbar-tool-icon ci-user"></i>
+                  </div>
+                  <div class="navbar-tool-text ms-n3">
+                    <small>Hello, Sign in</small>My Account
+                  </div></a
+                >
+                
+                  <!-- Cart dropdown-->
+                  
+          <div
+            class="navbar navbar-expand-lg navbar-light navbar-stuck-menu mt-n2 pt-0 pb-2"
+          >
+            <div class="container">
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+                <!-- Search-->
+
+                <!-- Departments menu-->
+
+                <!-- Primary menu-->
+                
+      </header>
+      <!-- Page Title-->
+      <div class="page-title-overlap bg-dark pt-4">
+        <div class="container d-lg-flex justify-content-between py-2 py-lg-3">
+          <div class="order-lg-2 mb-3 mb-lg-0 pt-lg-2">
+            <nav aria-label="breadcrumb">
+              <ol
+                class="breadcrumb breadcrumb-light flex-lg-nowrap justify-content-center justify-content-lg-start"
+              >
+                <li class="breadcrumb-item">
+                  <a class="text-nowrap" href="home-fashion-store-v2.html"
+                    ><i class="ci-home"></i>Home</a
+                  >
+                </li>
+                <li class="breadcrumb-item text-nowrap">
+                  <a href="home-fashion-store-v2.html">Shop</a>
+                </li>
+                <li
+                  class="breadcrumb-item text-nowrap active"
+                  aria-current="page"
+                >
+                  Product 
+                </li>
+              </ol>
+            </nav>
+          </div>
+          <div class="order-lg-1 pe-lg-4 text-center text-lg-start">
+            <h1 class="h3 text-light mb-0">Organic Instant Oatmeal</h1>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <!-- Gallery + details-->
+        <div class="bg-light shadow-lg rounded-3 px-4 py-3 mb-5">
+          <div class="px-lg-3">
+            <div class="row">
+              <!-- Product gallery-->
+              <div class="col-lg-7 pe-lg-0 pt-lg-4">
+                <div class="product-gallery">
+                  <div class="product-gallery-preview order-sm-2">
+                    <div class="product-gallery-preview-item active" id="first">
+                      <img
+                        class="image-zoom"
+                        src="https://www.quakeroats.com/sites/quakeroats.com/files/gluten-free-instant-oatmeal-maple-brown-sugar-front_3.png"
+                        data-zoom="https://www.quakeroats.com/sites/quakeroats.com/files/gluten-free-instant-oatmeal-maple-brown-sugar-front_3.png"
+                        alt="Product image"
+                      />
+                      <div class="image-zoom-pane"></div>
+                    </div>
+                    <div class="product-gallery-preview-item" id="second">
+                      <img
+                        class="image-zoom"
+                        src="https://www.quakeroats.com/sites/quakeroats.com/files/gluten-free-instant-oatmeal-maple-brown-sugar-back_3.png"
+                        data-zoom="https://www.quakeroats.com/sites/quakeroats.com/files/gluten-free-instant-oatmeal-maple-brown-sugar-back_3.png"
+                        alt="Product image"
+                      />
+                      <div class="image-zoom-pane"></div>
+                    </div>
+                    <div class="product-gallery-preview-item" id="third">
+                      <img
+                        class="image-zoom"
+                        src="img/shop/single/gallery/03.jpg"
+                        data-zoom="img/shop/single/gallery/03.jpg"
+                        alt="Product image"
+                      />
+                      <div class="image-zoom-pane"></div>
+                    </div>
+                    <div class="product-gallery-preview-item" id="fourth">
+                      <img
+                        class="image-zoom"
+                        src="img/shop/single/gallery/04.jpg"
+                        data-zoom="img/shop/single/gallery/04.jpg"
+                        alt="Product image"
+                      />
+                      <div class="image-zoom-pane"></div>
+                    </div>
+                  </div>
+                  <div class="product-gallery-thumblist order-sm-1">
+                    <a
+                      class="product-gallery-thumblist-item active"
+                      href="#first"
+                      ><img
+                        src="https://www.quakeroats.com/sites/quakeroats.com/files/gluten-free-instant-oatmeal-maple-brown-sugar-front_3.png"
+                        alt="Product thumb" /></a
+                    ><a class="product-gallery-thumblist-item" href="#second"
+                      ><img
+                        src="https://www.quakeroats.com/sites/quakeroats.com/files/gluten-free-instant-oatmeal-maple-brown-sugar-back_3.png"
+                        alt="Product thumb" /></a
+                    ><a 
+                      ></a
+                    ><a>
+                    <a
+                      
+                    >
+                      <div class="product-gallery-thumblist-item-text">
+                       
+                      </div></a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- Product details-->
+              <div class="col-lg-5 pt-4 pt-lg-0">
+                <div class="product-details ms-auto pb-3">
+                  <div
+                    class="d-flex justify-content-between align-items-center mb-2"
+                  >
+                    <a href="#reviews" data-scroll>
+                      <div class="star-rating">
+                        <i class="star-rating-icon ci-star-filled active"></i
+                        ><i class="star-rating-icon ci-star-filled active"></i
+                        ><i class="star-rating-icon ci-star-filled active"></i
+                        ><i class="star-rating-icon ci-star-filled active"></i
+                        ><i class="star-rating-icon ci-star"></i>
+                      </div>
+                      <span
+                        class="d-inline-block fs-sm text-body align-middle mt-1 ms-1"
+                        >74 Reviews</span
+                      ></a
+                    >
+                    <button
+                      class="btn-wishlist me-0 me-lg-n3"
+                      type="button"
+                      data-bs-toggle="tooltip"
+                      title="Add to wishlist"
+                    >
+                      <i class="ci-heart"></i>
+                    </button>
+                  </div>
+                  <div class="mb-3">
+                    <span class="h3 fw-normal text-accent me-1"
+                      >$18.<small>99</small></span
+                    >
+                    <del class="text-muted fs-lg me-3"
+                      >$25.<small>00</small></del
+                    ><span
+                      class="badge bg-danger badge-shadow align-middle mt-n2"
+                      >Sale</span
+                    >
+                  </div>
+                  
+                  <div class="position-relative me-n4 mb-3">
+                    <div class="form-check form-option form-check-inline mb-2">
+                      
+                    </div>
+                    <div class="form-check form-option form-check-inline mb-2">
+                      
+                    </div>
+                    <div class="form-check form-option form-check-inline mb-2">
+                     
+                      
+                    </div>
+                    <div class="product-badge product-available mt-n1">
+                      <i class="ci-security-check"></i>Product available
+                    </div>
+                  </div>
+                  <form class="mb-grid-gutter" method="post">
+                    <div class="mb-3">
+                      <div
+                        class="d-flex justify-content-between align-items-center pb-1"
+                      >
+                        
+                        <a
+                          class="nav-link-style fs-sm"
+                          href="#size-chart"
+                          data-bs-toggle="modal"
+                          ></a
+                        >
+                      </div>
+                      
+                    </div>
+                    <div class="mb-3 d-flex align-items-center">
+                      <select class="form-select me-3" style="width: 5rem">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                      <form action="checkout-payment.html" method="get">
+                        <a class="btn btn-secondary d-block w-100" href="checkout-payment.html"><i class="ci-cart fs-lg me-2"></i> <span class="d-none d-sm-inline">Add to Cart</span><span class="d-inline d-sm-none"></span></a>
+                        
+                     
+                    </div>
+                  </form>
+                  </form>
+                  <!-- Product panels-->
+                  <div class="accordion mb-4" id="productPanels">
+                    <div class="accordion-item">
+                     
+                        
+                      
+                      <div
+                        
+                      >
+                        
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h3 class="accordion-header">
+                        <a
+                          class="accordion-button collapsed"
+                          href="#shippingOptions"
+                          role="button"
+                          data-bs-toggle="collapse"
+                          aria-expanded="true"
+                          aria-controls="shippingOptions"
+                          ><i
+                            class="ci-delivery text-muted lead align-middle mt-n1 me-2"
+                          ></i
+                          >Shipping options</a
+                        >
+                      </h3>
+                      <div
+                        class="accordion-collapse collapse"
+                        id="shippingOptions"
+                        data-bs-parent="#productPanels"
+                      >
+                        <div class="accordion-body fs-sm">
+                          <div
+                            class="d-flex justify-content-between border-bottom pb-2"
+                          >
+                            <div>
+                              <div class="fw-semibold text-dark">Courier</div>
+                              <div class="fs-sm text-muted">2 - 4 days</div>
+                            </div>
+                            <div>$26.50</div>
+                          </div>
+                          <div
+                            class="d-flex justify-content-between border-bottom py-2"
+                          >
+                            <div>
+                              <div class="fw-semibold text-dark">
+                                Local shipping
+                              </div>
+                              <div class="fs-sm text-muted">up to one week</div>
+                            </div>
+                            <div>$10.00</div>
+                          </div>
+                          <div
+                            class="d-flex justify-content-between border-bottom py-2"
+                          >
+                            <div>
+                              <div class="fw-semibold text-dark">Flat rate</div>
+                              <div class="fs-sm text-muted">5 - 7 days</div>
+                            </div>
+                            <div>$33.85</div>
+                          </div>
+                          <div
+                            class="d-flex justify-content-between border-bottom py-2"
+                          >
+                            <div>
+                              <div class="fw-semibold text-dark">
+                                UPS ground shipping
+                              </div>
+                              <div class="fs-sm text-muted">4 - 6 days</div>
+                            </div>
+                            <div>$18.00</div>
+                          </div>
+                          <div class="d-flex justify-content-between pt-2">
+                            <div>
+                              <div class="fw-semibold text-dark">
+                                Local pickup from store
+                              </div>
+                              <div class="fs-sm text-muted">&mdash;</div>
+                            </div>
+                            <div>$0.00</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h3 class="accordion-header">
+                        <a
+                          class="accordion-button collapsed"
+                          href="#localStore"
+                          role="button"
+                          data-bs-toggle="collapse"
+                          aria-expanded="true"
+                          aria-controls="localStore"
+                          ><i
+                            class="ci-location text-muted fs-lg align-middle mt-n1 me-2"
+                          ></i
+                          >Find in local store</a
+                        >
+                      </h3>
+                      <div
+                        class="accordion-collapse collapse"
+                        id="localStore"
+                        data-bs-parent="#productPanels"
+                      >
+                        <div class="accordion-body">
+                          <select class="form-select">
+                            <option value>Select your country</option>
+                            <option value="Argentina">Argentina</option>
+                            <option value="Belgium">Belgium</option>
+                            <option value="France">France</option>
+                            <option value="Germany">Germany</option>
+                            <option value="Spain">Spain</option>
+                            <option value="UK">United Kingdom</option>
+                            <option value="USA">USA</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Sharing-->
+                  <label
+                    class="form-label d-inline-block align-middle my-2 me-3"
+                    >Share:</label
+                  ><a class="btn-share btn-twitter me-2 my-2" href="#"
+                    ><i class="ci-twitter"></i>Twitter</a
+                  ><a class="btn-share btn-instagram me-2 my-2" href="#"
+                    ><i class="ci-instagram"></i>Instagram</a
+                  ><a class="btn-share btn-facebook my-2" href="#"
+                    ><i class="ci-facebook"></i>Facebook</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Product description section 1-->
+      
+        <!-- Product description section 2-->
+        <div class="row align-items-center py-4 py-lg-5">
+          <div class="col-lg-5 col-md-6 offset-lg-1">
+            <img
+              class="d-block rounded-3"
+              src="img/shop/single/prod-map.png"
+              alt="Map"
+            />
+          </div>
+          <div class="col-lg-4 col-md-6 offset-lg-1 py-4">
+            <h2 class="h3 mb-4 pb-2">Where is it made?</h2>
+            <h6 class="fs-base mb-3">Apparel Manufacturer, Ltd.</h6>
+            <p class="fs-sm text-muted pb-2">
+              ​Sam Tower, 6 Road No 32, Dhaka 1875, Bangladesh
+            </p>
+            <div class="d-flex mb-2">
+              <div class="me-4 pe-2 text-center">
+                <h4 class="h2 text-accent mb-1">3258</h4>
+                <p>Workers</p>
+              </div>
+              <div class="me-4 pe-2 text-center">
+                <h4 class="h2 text-accent mb-1">43%</h4>
+                <p>Female</p>
+              </div>
+              <div class="text-center">
+                <h4 class="h2 text-accent mb-1">57%</h4>
+                <p>Male</p>
+              </div>
+            </div>
+            <h6 class="fs-base mb-3">Factory information</h6>
+            <p class="fs-sm text-muted pb-md-2">
+              ​Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Reviews-->
+      <div class="border-top border-bottom my-lg-3 py-5">
+        <div class="container pt-md-2" id="reviews">
+          <div class="row pb-3">
+            <div class="col-lg-4 col-md-5">
+              <h2 class="h3 mb-4">74 Reviews</h2>
+              <div class="star-rating me-2">
+                <i class="ci-star-filled fs-sm text-accent me-1"></i
+                ><i class="ci-star-filled fs-sm text-accent me-1"></i
+                ><i class="ci-star-filled fs-sm text-accent me-1"></i
+                ><i class="ci-star-filled fs-sm text-accent me-1"></i
+                ><i class="ci-star fs-sm text-muted me-1"></i>
+              </div>
+              <span class="d-inline-block align-middle"
+                >4.1 Overall rating</span
+              >
+              <p class="pt-3 fs-sm text-muted">
+                58 out of 74 (77%)<br />Customers recommended this product
+              </p>
+            </div>
+            <div class="col-lg-8 col-md-7">
+              <div class="d-flex align-items-center mb-2">
+                <div class="text-nowrap me-3">
+                  <span class="d-inline-block align-middle text-muted">5</span
+                  ><i class="ci-star-filled fs-xs ms-1"></i>
+                </div>
+                <div class="w-100">
+                  <div class="progress" style="height: 4px">
+                    <div
+                      class="progress-bar bg-success"
+                      role="progressbar"
+                      style="width: 60%"
+                      aria-valuenow="60"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <span class="text-muted ms-3">43</span>
+              </div>
+              <div class="d-flex align-items-center mb-2">
+                <div class="text-nowrap me-3">
+                  <span class="d-inline-block align-middle text-muted">4</span
+                  ><i class="ci-star-filled fs-xs ms-1"></i>
+                </div>
+                <div class="w-100">
+                  <div class="progress" style="height: 4px">
+                    <div
+                      class="progress-bar"
+                      role="progressbar"
+                      style="width: 27%; background-color: #a7e453"
+                      aria-valuenow="27"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <span class="text-muted ms-3">16</span>
+              </div>
+              <div class="d-flex align-items-center mb-2">
+                <div class="text-nowrap me-3">
+                  <span class="d-inline-block align-middle text-muted">3</span
+                  ><i class="ci-star-filled fs-xs ms-1"></i>
+                </div>
+                <div class="w-100">
+                  <div class="progress" style="height: 4px">
+                    <div
+                      class="progress-bar"
+                      role="progressbar"
+                      style="width: 17%; background-color: #ffda75"
+                      aria-valuenow="17"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <span class="text-muted ms-3">9</span>
+              </div>
+              <div class="d-flex align-items-center mb-2">
+                <div class="text-nowrap me-3">
+                  <span class="d-inline-block align-middle text-muted">2</span
+                  ><i class="ci-star-filled fs-xs ms-1"></i>
+                </div>
+                <div class="w-100">
+                  <div class="progress" style="height: 4px">
+                    <div
+                      class="progress-bar"
+                      role="progressbar"
+                      style="width: 9%; background-color: #fea569"
+                      aria-valuenow="9"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <span class="text-muted ms-3">4</span>
+              </div>
+              <div class="d-flex align-items-center">
+                <div class="text-nowrap me-3">
+                  <span class="d-inline-block align-middle text-muted">1</span
+                  ><i class="ci-star-filled fs-xs ms-1"></i>
+                </div>
+                <div class="w-100">
+                  <div class="progress" style="height: 4px">
+                    <div
+                      class="progress-bar bg-danger"
+                      role="progressbar"
+                      style="width: 4%"
+                      aria-valuenow="4"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+                <span class="text-muted ms-3">2</span>
+              </div>
+            </div>
+          </div>
+          <hr class="mt-4 mb-3" />
+          <div class="row pt-4">
+            <!-- Reviews list-->
+           
+            <!-- Leave review form-->
+            <div class="col-md-5 mt-2 pt-4 mt-md-0 pt-md-0">
+              <div class="bg-secondary py-grid-gutter px-grid-gutter rounded-3">
+                <h3 class="h4 pb-2">Write a review</h3>
+                <form class="needs-validation" method="post" novalidate>
+                  <div class="mb-3">
+                    <label class="form-label" for="review-name"
+                      >Your name<span class="text-danger">*</span></label
+                    >
+                    <input
+                      class="form-control"
+                      type="text"
+                      required
+                      id="review-name"
+                    />
+                    <div class="invalid-feedback">Please enter your name!</div>
+                    <small class="form-text text-muted"
+                      >Will be displayed on the comment.</small
+                    >
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label" for="review-email"
+                      >Your email<span class="text-danger">*</span></label
+                    >
+                    <input
+                      class="form-control"
+                      type="email"
+                      required
+                      id="review-email"
+                    />
+                    <div class="invalid-feedback">
+                      Please provide valid email address!
+                    </div>
+                    <small class="form-text text-muted"
+                      >Authentication only - we won't spam you.</small
+                    >
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label" for="review-rating"
+                      >Rating<span class="text-danger">*</span></label
+                    >
+                    <select class="form-select" required id="review-rating">
+                      <option value="">Choose rating</option>
+                      <option value="5">5 stars</option>
+                      <option value="4">4 stars</option>
+                      <option value="3">3 stars</option>
+                      <option value="2">2 stars</option>
+                      <option value="1">1 star</option>
+                    </select>
+                    <div class="invalid-feedback">Please choose rating!</div>
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label" for="review-text"
+                      >Review<span class="text-danger">*</span></label
+                    >
+                    <textarea
+                      class="form-control"
+                      rows="6"
+                      required
+                      id="review-text"
+                    ></textarea>
+                    <div class="invalid-feedback">Please write a review!</div>
+                    <small class="form-text text-muted"
+                      >Your review must be at least 50 characters.</small
+                    >
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label" for="review-pros">Pros</label>
+                    <textarea
+                      class="form-control"
+                      rows="2"
+                      placeholder="Separated by commas"
+                      id="review-pros"
+                    ></textarea>
+                  </div>
+                  <div class="mb-3 mb-4">
+                    <label class="form-label" for="review-cons">Cons</label>
+                    <textarea
+                      class="form-control"
+                      rows="2"
+                      placeholder="Separated by commas"
+                      id="review-cons"
+                    ></textarea>
+                  </div>
+                  <button
+                    class="btn btn-primary btn-shadow d-block w-100"
+                    type="submit"
+                  >
+                    Submit a Review
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Product carousel (Style with)-->
+      
+      <!-- Product carousel (You may also like)-->
+      
+    <!-- Footer-->
+    <footer class="footer bg-dark pt-5">
+      <div class="container">
+        <div class="row pb-2">
+          <div class="col-md-4 col-sm-6">
+            <div class="widget widget-links widget-light pb-2 mb-4">
+             
+              
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="widget widget-links widget-light pb-2 mb-4">
+              
+            </div>
+            <div class="widget widget-links widget-light pb-2 mb-4">
+              
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="widget pb-2 mb-4">
+              <h3 class="widget-title text-light pb-1">Stay informed</h3>
+              <form
+                class="subscription-form validate"
+                action="#"
+                method="post"
+                name="mc-embedded-subscribe-form"
+                target="_blank"
+                novalidate
+              >
+                <div class="input-group flex-nowrap">
+                  <i
+                    class="ci-mail position-absolute top-50 translate-middle-y text-muted fs-base ms-3"
+                  ></i>
+                  <input
+                    class="form-control rounded-start"
+                    type="email"
+                    name="EMAIL"
+                    placeholder="Your email"
+                    required
+                  />
+                  <button
+                    class="btn btn-primary"
+                    type="submit"
+                    name="subscribe"
+                  >
+                    Subscribe*
+                  </button>
+                </div>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div
+                  style="position: absolute; left: -5000px"
+                  aria-hidden="true"
+                >
+                  <input
+                    class="subscription-form-antispam"
+                    type="text"
+                    name="b_c7103e2c981361a6639545bd5_29ca296126"
+                    tabindex="-1"
+                  />
+                </div>
+                <div class="form-text text-light opacity-50">
+                  *Subscribe to our newsletter to receive early discount offers,
+                  updates and new products info.
+                </div>
+                <div class="subscription-status"></div>
+              </form>
+            </div>
+            <div class="widget pb-2 mb-4">
+              
+              <div class="d-flex flex-wrap">
+                <div class="me-2 mb-2">
+                  
+                </div>
+                <div class="mb-2">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pt-5 bg-darker">
+        <div class="container">
+          <div class="row pb-3">
+            <div class="col-md-3 col-sm-6 mb-4">
+              <div class="d-flex">
+                
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+              <div class="d-flex">
+               
+                <div class="ps-3">
+                  <h6 class="fs-base text-light mb-1"></h6>
+                  <p class="mb-0 fs-ms text-light opacity-50">
+                    
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+              <div class="d-flex">
+                
+                <div class="ps-3">
+                  <h6 class="fs-base text-light mb-1"></h6>
+                  <p class="mb-0 fs-ms text-light opacity-50">
+                    
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+              <div class="d-flex">
+                
+                <div class="ps-3">
+                  <h6 class="fs-base text-light mb-1"></h6>
+                  <p class="mb-0 fs-ms text-light opacity-50">
+                    
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="hr-light mb-5" />
+          <div class="row pb-2">
+            <div class="col-md-6 text-center text-md-start mb-4">
+              <div class="text-nowrap mb-4">
+                <a class="d-inline-block align-middle mt-n1 me-3" href="#"
+                  ><img
+                    class="d-block"
+                    src="img2/loguito3.png"
+                    width="117"
+                    alt="Cartzilla"
+                /></a>
+                <div class="btn-group dropdown disable-autohide">
+                  
+                   
+                  </button>
+                  <ul class="dropdown-menu my-1">
+                    <li class="dropdown-item">
+                      <select class="form-select form-select-sm">
+                       
+                      </select>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
+              <div class="widget widget-links widget-light">
+                
+              </div>
+            </div>
+            <div class="col-md-6 text-center text-md-end mb-4">
+              <div class="mb-3">
+                <a class="btn-social bs-light bs-twitter ms-2 mb-2" href="https://x.com/?lang=es"
+                  ><i class="ci-twitter"></i></a
+                ><a class="btn-social bs-light bs-facebook ms-2 mb-2" href="https://www.facebook.com/?locale=es_LA"
+                  ><i class="ci-facebook"></i></a
+                ><a class="btn-social bs-light bs-instagram ms-2 mb-2" href="https://www.instagram.com/"
+                  ><i class="ci-instagram"></i></a
+                ><a class="btn-social bs-light bs-pinterest ms-2 mb-2" href="https://www.pinterest.es/"
+                  ><i class="ci-pinterest"></i></a
+                ><a class="btn-social bs-light bs-youtube ms-2 mb-2" href="https://www.youtube.com/"
+                  ><i class="ci-youtube"></i
+                ></a>
+              </div>
+              <img
+                class="d-inline-block"
+                src="img/cards-alt.png"
+                width="187"
+                alt="Payment methods"
+              />
+            </div>
+          </div>
+          <div
+            class="pb-4 fs-xs text-light opacity-50 text-center text-md-start"
+          >
+            © All rights reserved.
+            <a
+              class="text-light"
+              href="https://createx.studio/"
+              target="_blank"
+              rel="noopener"
+              ></a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Toolbar for handheld devices (Default)-->
+    
+    <!-- Back To Top Button--><a class="btn-scroll-top" href="#top" data-scroll
+      ><span class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span
+      ><i class="btn-scroll-top-icon ci-arrow-up"> </i
+    ></a>
+    <!-- Vendor scrits: js libraries and plugins-->
+    <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/simplebar/dist/simplebar.min.js"></script>
+    <script src="vendor/tiny-slider/dist/min/tiny-slider.js"></script>
+    <script src="vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="vendor/drift-zoom/dist/Drift.min.js"></script>
+    <script src="vendor/lightgallery.js/dist/js/lightgallery.min.js"></script>
+    <script src="vendor/lg-video.js/dist/lg-video.min.js"></script>
+    <!-- Main theme script-->
+    <script src="js/index.js"></script>
+  </body>
+
+  <!-- Mirrored from cartzilla.createx.studio/shop-single-v1.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 12 Aug 2022 18:09:56 GMT -->
+</html>

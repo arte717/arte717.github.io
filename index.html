@@ -1,0 +1,2822 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Mirrored from cartzilla.createx.studio/home-fashion-store-v2.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 12 Aug 2022 18:15:32 GMT -->
+  <!-- Added by HTTrack --><meta
+    http-equiv="content-type"
+    content="text/html;charset=utf-8"
+  /><!-- /Added by HTTrack -->
+  <head>
+    <meta charset="utf-8" />
+    <title>Excellara</title>
+    <!-- SEO Meta Tags-->
+    <meta
+      name="description"
+      content="Cartzilla - Bootstrap E-commerce Template"
+    />
+    <meta
+      name="keywords"
+      content="bootstrap, shop, e-commerce, market, modern, responsive,  business, mobile, bootstrap, html5, css3, js, gallery, slider, touch, creative, clean"
+    />
+    <meta name="author" content="Createx Studio" />
+    <!-- Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Favicon and Touch Icons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="img2/loguito3.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img2/loguito3.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img2/loguito3.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="mask-icon" color="#fe6a6a" href="safari-pinned-tab.svg" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Vendor Styles including: Font Icons, Plugins, etc.-->
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="vendor/simplebar/dist/simplebar.min.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="vendor/tiny-slider/dist/tiny-slider.css"
+    />
+    <!-- Main Theme Styles + Bootstrap-->
+    <link rel="stylesheet" media="screen" href="css/index.css" />
+    <!-- Google Tag Manager-->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "../www.googletagmanager.com/gtm5445.html?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-WKV3GT5");
+    </script>
+  </head>
+  <!-- Body-->
+  <body class="handheld-toolbar-enabled">
+    
+    <!-- Google Tag Manager (noscript)-->
+    <noscript>
+      <iframe
+        src="http://www.googletagmanager.com/ns.html?id=GTM-WKV3GT5"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe>
+    </noscript>
+    <!-- Sign in / sign up modal-->
+    <div class="modal fade" id="signin-modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header bg-secondary">
+            <ul class="nav nav-tabs card-header-tabs" role="tablist">
+              <li class="nav-item">
+                <a
+                  class="nav-link fw-medium active"
+                  href="#signin-tab"
+                  data-bs-toggle="tab"
+                  role="tab"
+                  aria-selected="true"
+                  ><i class="ci-unlocked me-2 mt-n1"></i>Sign in</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link fw-medium"
+                  href="#signup-tab"
+                  data-bs-toggle="tab"
+                  role="tab"
+                  aria-selected="false"
+                  ><i class="ci-user me-2 mt-n1"></i>Sign up</a
+                >
+              </li>
+            </ul>
+            <button
+              class="btn-close"
+              type="button"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body tab-content py-4">
+            <form
+              class="needs-validation tab-pane fade show active"
+              autocomplete="off"
+              novalidate
+              id="signin-tab"
+            >
+              <div class="mb-3">
+                <label class="form-label" for="si-email">Email address</label>
+                <input
+                  class="form-control"
+                  type="email"
+                  id="si-email"
+                  placeholder="johndoe@example.com"
+                  required
+                />
+                <div class="invalid-feedback">
+                  Please provide a valid email address.
+                </div>
+              </div>
+              <div class="mb-3">
+                <label class="form-label" for="si-password">Password</label>
+                <div class="password-toggle">
+                  <input
+                    class="form-control"
+                    type="password"
+                    id="si-password"
+                    required
+                  />
+                  <label
+                    class="password-toggle-btn"
+                    aria-label="Show/hide password"
+                  >
+                    <input class="password-toggle-check" type="checkbox" /><span
+                      class="password-toggle-indicator"
+                    ></span>
+                  </label>
+                </div>
+              </div>
+              <div class="mb-3 d-flex flex-wrap justify-content-between">
+                <div class="form-check mb-2">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="si-remember"
+                  />
+                  <label class="form-check-label" for="si-remember"
+                    >Remember me</label
+                  >
+                </div>
+                <a class="fs-sm" href="#">Forgot password?</a>
+              </div>
+              <button
+                class="btn btn-primary btn-shadow d-block w-100"
+                type="submit"
+              >
+                Sign in
+              </button>
+            </form>
+            <form
+              class="needs-validation tab-pane fade"
+              autocomplete="off"
+              novalidate
+              id="signup-tab"
+            >
+              <div class="mb-3">
+                <label class="form-label" for="su-name">Full name</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  id="su-name"
+                  placeholder="John Doe"
+                  required
+                />
+                <div class="invalid-feedback">Please fill in your name.</div>
+              </div>
+              <div class="mb-3">
+                <label for="su-email">Email address</label>
+                <input
+                  class="form-control"
+                  type="email"
+                  id="su-email"
+                  placeholder="johndoe@example.com"
+                  required
+                />
+                <div class="invalid-feedback">
+                  Please provide a valid email address.
+                </div>
+              </div>
+              <div class="mb-3">
+                <label class="form-label" for="su-password">Password</label>
+                <div class="password-toggle">
+                  <input
+                    class="form-control"
+                    type="password"
+                    id="su-password"
+                    required
+                  />
+                  <label
+                    class="password-toggle-btn"
+                    aria-label="Show/hide password"
+                  >
+                    <input class="password-toggle-check" type="checkbox" /><span
+                      class="password-toggle-indicator"
+                    ></span>
+                  </label>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label class="form-label" for="su-password-confirm"
+                  >Confirm password</label
+                >
+                <div class="password-toggle">
+                  <input
+                    class="form-control"
+                    type="password"
+                    id="su-password-confirm"
+                    required
+                  />
+                  <label
+                    class="password-toggle-btn"
+                    aria-label="Show/hide password"
+                  >
+                    <input class="password-toggle-check" type="checkbox" /><span
+                      class="password-toggle-indicator"
+                    ></span>
+                  </label>
+                </div>
+              </div>
+              <button
+                class="btn btn-primary btn-shadow d-block w-100"
+                type="submit"
+              >
+                Sign up
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main class="page-wrapper">
+      <!-- Navbar 3 Level (Light)-->            
+      <header class="shadow-sm">
+        <!-- Topbar-->
+
+        <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page.-->
+        <div class="navbar-sticky bg-light">
+          <div class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+              <a
+                class="navbar-brand d-none d-sm-block flex-shrink-0"
+                href="index.html"
+                ><img src="img2/loguito2.png" width="90px" height="100px"  alt="" /></a
+              ><a
+                class="navbar-brand d-sm-none flex-shrink-0 me-2"
+                href="index.html"
+                ><img src="img2/loguito2.png" width="65" alt="Cartzilla"
+              /></a>
+              
+                <a
+                  class="navbar-tool ms-1 ms-lg-0 me-n1 me-lg-2"
+                  href="#signin-modal"
+                  data-bs-toggle="modal"
+                >
+                  <div class="navbar-tool-icon-box">
+                    <i class="navbar-tool-icon ci-user"></i>
+                  </div>
+                  <div class="navbar-tool-text ms-n3">
+                    <small>Hello, Sign in</small>My Account
+                  </div></a
+                >
+              
+                  <!-- Cart dropdown-->
+                 
+                <!-- Search-->
+                <div class="input-group d-lg-none my-3">
+                  <i
+                    class="ci-search position-absolute top-50 start-0 translate-middle-y text-muted fs-base ms-3"
+                  ></i>
+                  <input
+                    class="form-control rounded-start"
+                    type="text"
+                    placeholder="Search for products"
+                  />
+                </div>
+                <!-- Departments menu-->
+
+                <!-- Primary menu-->
+                
+      </header>
+      <!-- Hero slider-->
+      <section class="tns-carousel tns-controls-lg mb-4 mb-lg-5">
+        <div
+          class="tns-carousel-inner"
+          data-carousel-options='{"mode": "gallery", "responsive": {"0":{"nav":true, "controls": false},"992":{"nav":false, "controls": true}}}'
+        >
+          <!-- Item-->
+          <div class="px-lg-5" style="background-color: #2660bb;">
+            <div
+              class="d-lg-flex justify-content-between align-items-center ps-lg-4"
+            >
+              <img
+                class="d-block order-lg-2 me-lg-n5 flex-shrink-0"
+                src="img2/pozuelop5.png"
+                alt="Women Sportswear"
+              />
+              <div
+                class="position-relative mx-auto me-lg-n5 py-5 px-4 mb-lg-5 order-lg-1"
+                style="max-width: 42rem; z-index: 10"
+              >
+                <div
+                  class="pb-lg-5 mb-lg-5 text-center text-lg-start text-lg-nowrap"
+                >
+                  <h3 class="h2 text-light fw-light pb-1 from-bottom" >
+                    Hurry up! Limited time offer.
+                  </h3>
+                  <h2 class="text-light display-5 from-bottom delay-1">
+                    BUTTER
+                  </h2>
+                  <p class="fs-lg text-light pb-3 from-bottom delay-2">
+                    Crispy butter-flavored cookies, <br>
+                      an ideal option to enjoy as a snack and to share with the family at coffee time. 
+                  </p>
+                  <div class="d-table scale-up delay-4 mx-auto mx-lg-0">
+                    <a class="btn btn-primary" href="shop-grid-ls.html"
+                      >Shop Now<i class="ci-arrow-right ms-2 me-n1"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Item-->
+          <div class="px-lg-5" style="background-color: #3aafd2">
+            <div
+              class="d-lg-flex justify-content-between align-items-center ps-lg-4"
+            >
+              <img
+                class="d-block order-lg-2 me-lg-n5 flex-shrink-0"
+                src="img2/pozuelop2.png"
+                alt="Summer Collection"
+              />
+              <div
+                class="position-relative mx-auto me-lg-n5 py-5 px-4 mb-lg-5 order-lg-1"
+                style="max-width: 42rem; z-index: 10"
+              >
+                <div
+                  class="pb-lg-5 mb-lg-5 text-center text-lg-start text-lg-nowrap"
+                >
+                  <h3 class="h2 text-light fw-light pb-1 from-start">
+                    Has just arrived!
+                  </h3>
+                  <h2 class="text-light display-5 from-start delay-1">
+                    GUY
+                    ORIGINAL
+                  </h2>
+                  <p class="fs-lg text-light pb-3 from-start delay-2">
+                    Pozuelo Type Sweet Cookies,<br>
+                     a delicious vanilla-flavored cookie to enjoy at any time of the day.
+                  </p>
+                  <div class="d-table scale-up delay-4 mx-auto mx-lg-0">
+                    <a class="btn btn-primary" href="shop-grid-ls.html"
+                      >Shop Now<i class="ci-arrow-right ms-2 me-n1"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Item-->
+          <div class="px-lg-5" style="background-color: #eba170">
+            <div
+              class="d-lg-flex justify-content-between align-items-center ps-lg-4"
+            >
+              <img
+                class="d-block order-lg-2 me-lg-n5 flex-shrink-0"
+                src="img2/pozuelop3.png"
+                alt="Men Accessories"
+              />
+              <div
+                class="position-relative mx-auto me-lg-n5 py-5 px-4 mb-lg-5 order-lg-1"
+                style="max-width: 42rem; z-index: 10"
+              >
+                <div
+                  class="pb-lg-5 mb-lg-5 text-center text-lg-start text-lg-nowrap"
+                >
+                  <h3 class="h2 text-light fw-light pb-1 from-top">
+                    Complete your breakfast with
+                  </h3>
+                  <h2 class="text-light display-5 from-top delay-1">
+                    YUMBO
+                    FIBER
+                  </h2>
+                  <p class="fs-lg text-light pb-3 from-top delay-2">
+                    Pozuelo Yumbo Fiber and Honey Cookie,<br>
+                     a delicious whole grain cookie and an excellent snack option with fiber and honey, low in sodium.
+                  </p>
+                  <div class="d-table scale-up delay-4 mx-auto mx-lg-0">
+                    <a class="btn btn-primary" href="shop-grid-ls.html"
+                      >Shop Now<i class="ci-arrow-right ms-2 me-n1"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Category (Women)-->
+      <section class="container pt-lg-3 mb-4 mb-sm-5">
+        <div class="row">
+          <!-- Banner with controls-->
+          <div class="col-md-5">
+            <div
+              class="d-flex flex-column h-100 overflow-hidden rounded-3"
+              style="background-color: #f6f8fb"
+            >
+              <div
+                class="d-flex justify-content-between px-grid-gutter py-grid-gutter"
+              >
+                <div>
+                  <h3 class="mb-1">CREAMS
+                    NUCITA</h3>
+                  <a class="fs-md" href="https://pozuelo.com/galletas/cremas-nucita/"
+                    >Pozuelo Store<i
+                      class="ci-arrow-right fs-xs align-middle ms-1"
+                    ></i
+                  ></a>
+                </div>
+                <div class="tns-carousel-controls" id="for-women">
+                  <button type="button"><i class="ci-arrow-left"></i></button>
+                  <button type="button"><i class="ci-arrow-right"></i></button>
+                </div>
+              </div>
+              <a class="d-none d-md-block mt-auto" href="https://pozuelo.com/galletas/cremas-nucita/"
+                ><img
+                  class="d-block w-100"
+                  src="https://pozuelo.com/wp-content/uploads/2023/10/cremas-nucita-info-nutrional.png
+                  "
+                  alt="For Women"
+              /></a>
+            </div>
+          </div>
+          <!-- Product grid (carousel)-->
+          <div class="col-md-7 pt-4 pt-md-0">
+            <div class="tns-carousel">
+              <div
+                class="tns-carousel-inner"
+                data-carousel-options='{"nav": false, "controlsContainer": "#for-women"}'
+              >
+                <!-- Carousel item-->
+                <div>
+                  <div class="row mx-n2">
+                    <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="img2/pquaker7.png" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >QUAKER®</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html"
+                              >Organic Instant Oatmeal</a
+                            >
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$12.<small>99</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-half active"
+                              ></i
+                              ><i class="star-rating-icon ci-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="img2/pquaker8.png" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >QUAKER®</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html"
+                              >Life® Cereal</a
+                            >
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$59.<small>99</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
+                      <div class="card product-card card-static">
+                        <span class="badge badge-danger badge-shadow"
+                          >Sale</span
+                        >
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="img2/pquaker9.png" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >QUAKER®</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html"
+                              >Oatmeal Squares</a
+                            >
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$17.<small>99</small></span
+                              >
+                              <del class="fs-sm text-muted"
+                                >28.<small>99</small></del
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-half active"
+                              ></i
+                              ><i class="star-rating-icon ci-star"></i
+                              ><i class="star-rating-icon ci-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://express.dospinos.com/media/catalog/product/1/5/15004540_1.jpg?optimize=medium&amp" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >Dairy</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html"
+                              >Cold Coffee Mocha 250ml</a
+                            >
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$79.<small>99</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i class="star-rating-icon ci-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4 d-none d-lg-block"
+                    >
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://express.dospinos.com/media/catalog/product/b/w/bw1.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=576&width=576&canvas=576:576" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >Dairy</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html">6 Pack Pinito Milk 3.5% 1L</a>
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$24.<small>99</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-half active"
+                              ></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4 d-none d-lg-block"
+                    >
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://express.dospinos.com/media/catalog/product/1/5/15000217.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=576&width=576&canvas=576:576" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >Dairy</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html">UHT Sweet Cream 1 L</a>
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$13.<small>99</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i class="star-rating-icon ci-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Carousel item-->
+                <div>
+                  <div class="row mx-n2">
+                    <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://www.quakeroats.com/sites/quakeroats.com/files/quaker_oldfashionedoats_640x800_11.png" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >QUAKER®</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html"
+                              >Oats-Old Fashioned</a
+                            >
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$154.<small>99</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-half active"
+                              ></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://www.quakeroats.com/sites/quakeroats.com/files/low-sugar-instant-oatmeal-variety-front_3.png" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >QUAKER®</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html">Lower Sugar Instant Oatmeal</a>
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$37.<small>50</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i class="star-rating-icon ci-star"></i
+                              ><i class="star-rating-icon ci-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://www.quakeroats.com/sites/quakeroats.com/files/2023-06/quaker_ff_blueberryblackberryangle_320x400.png" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >QUAKER®</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html"
+                              >Fruit Fusion Instant Oatmeal</a
+                            >
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$39.<small>50</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://express.dospinos.com/media/catalog/product/1/5/15000604.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=576&width=576&canvas=576:576" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >Dos Pinos</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html">Vanilla Chips Ice Cream 1/4 gl</a>
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$68.<small>40</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i class="star-rating-icon ci-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4 d-none d-lg-block"
+                    >
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://express.dospinos.com/media/catalog/product/1/5/15000603_1.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=576&width=576&canvas=576:576" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >Dos Pinos</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html"
+                              >Combined Lemon Ice Cream 1/2 gl</a
+                            >
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$67.<small>95</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-half active"
+                              ></i
+                              ><i class="star-rating-icon ci-star"></i
+                              ><i class="star-rating-icon ci-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4 d-none d-lg-block"
+                    >
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://express.dospinos.com/media/catalog/product/h/e/helados-clasicos-actual-visual-coco_2_.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=576&width=576&canvas=576:576" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >Dos Pinos</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html">Coconut ice cream 1/4 gl</a>
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$18.<small>99</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i class="star-rating-icon ci-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Category (Men)-->
+      <section class="container pt-lg-4 mb-4 mb-sm-5">
+        <div class="row">
+          <!-- Banner with controls-->
+          <div class="col-md-5 order-md-2">
+            <div
+              class="d-flex flex-column h-100 overflow-hidden rounded-3"
+              style="background-color: #f6f8fb"
+            >
+              <div
+                class="d-flex justify-content-between px-grid-gutter py-grid-gutter"
+              >
+                <div class="order-md-2">
+                  <h3 class="mb-1">WAFER Cubes</h3>
+                  <a class="fs-md" href="https://pozuelo.com/galletas/wafer-cubitos/"
+                    > Pozuelo Store<i
+                      class="ci-arrow-right fs-xs align-middle ms-1"
+                    ></i
+                  ></a>
+                </div>
+                <div class="tns-carousel-controls order-md-1" id="for-men">
+                  <button type="button"><i class="ci-arrow-left"></i></button>
+                  <button type="button"><i class="ci-arrow-right"></i></button>
+                </div>
+              </div>
+              <a class="d-none d-md-block mt-auto" href="https://pozuelo.com/galletas/wafer-cubitos/"
+                ><img
+                  class="d-block w-100"
+                  src="https://pozuelo.com/wp-content/uploads/2023/10/galletas-waffer-cubitos-info-nutricional.png"
+                  alt="For Men"
+              /></a>
+            </div>
+          </div>
+          <!-- Product grid (carousel)-->
+          <div class="col-md-7 pt-4 pt-md-0 order-md-1">
+            <div class="tns-carousel">
+              <div
+                class="tns-carousel-inner"
+                data-carousel-options='{"nav": false, "controlsContainer": "#for-men"}'
+              >
+                <!-- Carousel item-->
+                <div>
+                  <div class="row mx-n2">
+                    <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://www.lakymen.com/es/wp-content/uploads/2023/05/sobre.png" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >Laky Men</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html">Soup Envelope</a>
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$15.<small>99</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://i0.wp.com/superlacasita.com.gt/wp-content/uploads/2020/05/Abarrotes-Sopa-Laky-Men-Pollo-Vaso-64-g.jpg?fit=600%2C600&ssl=1" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >Laky Men</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html"
+                              >Soup Glass</a
+                            >
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$19.<small>99</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-half active"
+                              ></i
+                              ><i class="star-rating-icon ci-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://www.lakymen.com/es/wp-content/uploads/2023/05/snack-selector-1024x918.png" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >Laky Men</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html"
+                              >Snack</a
+                            >
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$37.<small>99</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i class="star-rating-icon ci-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://pozuelo.com/wp-content/uploads/2023/09/POZ-WEB-GALLETAS-450X400-MARIA-ORI.png  " alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >Pozuelo</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html"
+                              >Original Mary</a
+                            >
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$45.<small>99</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i class="star-rating-icon ci-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4 d-none d-lg-block"
+                    >
+                      <div class="card product-card card-static">
+                        <span class="badge badge-info badge-shadow"
+                          >Popular</span
+                        >
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://pozuelo.com/wp-content/uploads/2023/10/POZ-WEB-GALLETAS-450X400-WAFER-C-FRESA.png" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >Pozuelo</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html">Wafer Cubes</a>
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$68.<small>95</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-half active"
+                              ></i
+                              ><i class="star-rating-icon ci-star"></i
+                              ><i class="star-rating-icon ci-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4 d-none d-lg-block"
+                    >
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://colcafe.com/wp-content/uploads/2023/05/clasico-444x439-1.png" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >Colcafe</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html"
+                              >Classic- Soft</a
+                            >
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$542.<small>80</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-half active"
+                              ></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Carousel item-->
+                <div>
+                  <div class="row mx-n2">
+                    <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://colcafe.com/wp-content/uploads/2023/07/60-09-BannersLiofilizado-Colcafe.webp" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >Colcafe</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html"
+                              >Balanced Lyophilized</a
+                            >
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$99.<small>50</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-half active"
+                              ></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://colcafe.com/wp-content/uploads/2023/05/Dummie-Descafeinado-200g-444x439-1.png" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >Colcafe</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html"
+                              >Decaffeinated</a
+                            >
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$45.<small>00</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-half active"
+                              ></i
+                              ><i class="star-rating-icon ci-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://colcafe.com/wp-content/uploads/2023/05/Granulado-170g-444x439-1.png" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >Colcafe</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html"
+                              >Granulated</a
+                            >
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$7.<small>99</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i class="star-rating-icon ci-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://colcafe.com/wp-content/uploads/2024/03/dummicap.png" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >Colcafe</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html"
+                              >Cappuccino</a
+                            >
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$21.<small>70</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4 d-none d-lg-block"
+                    >
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://colcafe.com/wp-content/uploads/2023/05/Frontal_Doypack_colcafe_cafe_con_leche_220g.png" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >Hats &amp; Caps</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html"
+                              >Colcafe</a
+                            >
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$25.<small>9</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-half active"
+                              ></i
+                              ><i class="star-rating-icon ci-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4 d-none d-lg-block"
+                    >
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://colcafe.com/wp-content/uploads/2023/07/Colcafe-3en1-418g.webp" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >Colcafe</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html"
+                              >3 in 1 Coffe-Cream-Sugar</a
+                            >
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$79.<small>50</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i class="star-rating-icon ci-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Category (Kids)-->
+      <section class="container pt-lg-4 mb-4 mb-md-5">
+        <div class="row">
+          <!-- Banner with controls-->
+          <div class="col-md-5">
+            <div
+              class="d-flex flex-column h-100 overflow-hidden rounded-3"
+              style="background-color: #ffffff"
+            >
+              <div
+                class="d-flex justify-content-between px-grid-gutter py-grid-gutter"
+              >
+                <div>
+                  <h3 class="mb-1">LINE
+                    TRADITIONAL</h3>
+                  <a class="fs-md" href="https://pozuelo.com/galletas/linea-tradicional/"
+                    >Pozuelo Store<i
+                      class="ci-arrow-right fs-xs align-middle ms-1"
+                    ></i
+                  ></a>
+                </div>
+                <div class="tns-carousel-controls" id="for-kids">
+                  <button type="button"><i class="ci-arrow-left"></i></button>
+                  <button type="button"><i class="ci-arrow-right"></i></button>
+                </div>
+              </div>
+              <a class="d-none d-md-block mt-auto" href="https://pozuelo.com/galletas/linea-tradicional/"
+                ><img
+                  class="d-block w-100"
+                  src="https://pozuelo.com/wp-content/uploads/2023/09/tradicional-info-nutricional.png"
+                  alt="For Kids"
+              /></a>
+            </div>
+          </div>
+          <!-- Product grid (carousel)-->
+          <div class="col-md-7 pt-4 pt-md-0">
+            <div class="tns-carousel">
+              <div
+                class="tns-carousel-inner"
+                data-carousel-options='{"nav": false, "controlsContainer": "#for-kids"}'
+              >
+                <!-- Carousel item-->
+                <div>
+                  <div class="row mx-n2">
+                    <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://sula.hn/wp-content/uploads/2020/04/03-leche-uht-deslactosada-semi-descremada-sula-946ml-1.jpg" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >SULA</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html"
+                              >Semi-skimmed Lactose-Free Milk</a
+                            >
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$24.<small>99</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
+                      <div class="card product-card card-static">
+                        <span class="badge badge-success badge-shadow"
+                          >Trending</span
+                        >
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://sula.hn/wp-content/uploads/2020/04/03-leche-uht-entera-sula-946ml-1.jpg" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >SULA</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html"
+                              >Whole milk</a
+                            >
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$16.<small>50</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-half active"
+                              ></i
+                              ><i class="star-rating-icon ci-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://sula.hn/wp-content/uploads/2020/04/03-leche-uht-deslactosada-descremada-light-sula-946ml-1.jpg" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >SULA</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html"
+                              >Light Skimmed Lactose-Free Milk</a
+                            >
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$17.<small>99</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i class="star-rating-icon ci-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://walmartcr.vtexassets.com/arquivos/ids/508326/Harina-Maseca-De-Ma-z-Extra-Suave-820gr-1-79727.jpg?v=638416008260800000" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >MASECA</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html"
+                              >Extra Soft Maseca</a
+                            >
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$23.<small>00</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-half active"
+                              ></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4 d-none d-lg-block"
+                    >
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://walmartcr.vtexassets.com/arquivos/ids/262481/Harina-Maseca-Maiz-Cascado-2000gr-1-27736.jpg?v=637745206510230000" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >MASECA</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html"
+                              >Maseca Cracked Corn</a
+                            >
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$18.<small>00</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-half active"
+                              ></i
+                              ><i class="star-rating-icon ci-star"></i
+                              ><i class="star-rating-icon ci-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4 d-none d-lg-block"
+                    >
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://walmartgt.vtexassets.com/arquivos/ids/390310/Harina-de-Ma-z-Maseca-Extra-Suave-1649gr-3-44895.jpg?v=638283261941300000" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >MASECA</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html"
+                              >Extra Soft Maseca</a
+                            >
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$14.<small>99</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i class="star-rating-icon ci-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Carousel item-->
+                <div>
+                  <div class="row mx-n2">
+                    <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://walmarthn.vtexassets.com/arquivos/ids/356303/Aceite-Vegetal-Clover-Brand-3000Ml-1-8843.jpg?v=638417189949630000" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >Clover Brand</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html"
+                              >Aceite Vegetal 3lt</a
+                            >
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$42.<small>99</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-half active"
+                              ></i
+                              ><i class="star-rating-icon ci-star"></i
+                              ><i class="star-rating-icon ci-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://walmarthn.vtexassets.com/arquivos/ids/356277/Aceite-Vegetal-Clover-Brand-1500Ml-1-8842.jpg?v=638417189807400000" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >Clover Brand</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html"
+                              >Aceite Vegetal 1400ml</a
+                            >
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$20.<small>99</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://walmarthn.vtexassets.com/arquivos/ids/172015/Aceite-Clover-Vegetal-Econopack-443Ml-1-8826.jpg?v=637666371389330000" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >Clover Brand</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html">Aceite Vegetal 443ml</a>
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$5.<small>50</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i class="star-rating-icon ci-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://walmarthn.vtexassets.com/arquivos/ids/370727/Manteca-Clover-Vegetal-Pura-1000Gr-2-8821.jpg?v=638423665068630000" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >Clover Brand</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html"
+                              >Manteca Vegetal</a
+                            >
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$18.<small>99</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-half active"
+                              ></i
+                              ><i class="star-rating-icon ci-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4 d-none d-lg-block"
+                    >
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://walmarthn.vtexassets.com/arquivos/ids/371915/Margarina-Clover-400Gr-1-8824.jpg?v=638423671117500000" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >Clover Brand</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html">Margarina sin colesterol</a>
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$22.<small>50</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4 d-none d-lg-block"
+                    >
+                      <div class="card product-card card-static">
+                        <button
+                          class="btn-wishlist btn-sm"
+                          type="button"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="left"
+                          title="Add to wishlist"
+                        >
+                          <i class="ci-heart"></i></button
+                        ><a
+                          class="card-img-top d-block overflow-hidden"
+                          href="shop-single-v1.html"
+                          ><img src="https://walmarthn.vtexassets.com/arquivos/ids/173509/Aceite-Clover-Brand-Girasol-1000Ml-1-8859.jpg?v=637667559252000000" alt="Product"
+                        /></a>
+                        <div class="card-body py-2">
+                          <a class="product-meta d-block fs-xs pb-1" href="#"
+                            >Clover Brand</a
+                          >
+                          <h3 class="product-title fs-sm">
+                            <a href="shop-single-v1.html"
+                              >Aceite Girasol</a
+                            >
+                          </h3>
+                          <div class="d-flex justify-content-between">
+                            <div class="product-price">
+                              <span class="text-accent"
+                                >$20.<small>00</small></span
+                              >
+                            </div>
+                            <div class="star-rating">
+                              <i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i
+                                class="star-rating-icon ci-star-filled active"
+                              ></i
+                              ><i class="star-rating-icon ci-star"></i
+                              ><i class="star-rating-icon ci-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Shop by brand-->
+      <section class="container py-lg-4">
+        <h2 class="h3 text-center pb-4">Shop by brand</h2>
+        <div class="row">
+          <div class="col-md-3 col-sm-4 col-6">
+            <a
+              class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter"
+              href="https://www.quakeroats.com/"
+              ><img
+                class="d-block mx-auto"
+                src="https://e7.pngegg.com/pngimages/478/565/png-clipart-quaker-art-quaker-oats-company-quaker-instant-oatmeal-logo-oat-miscellaneous-food.png"
+                style="width: 150px"
+                alt="Brand"
+            /></a>
+          </div>
+          <div class="col-md-3 col-sm-4 col-6">
+            <a
+              class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter"
+              href="https://express.dospinos.com/"
+              ><img
+                class="d-block mx-auto"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj-EFlKPupkIaFg89fLDmiNliSgqnoxJBmooyPHv2aqUnIMBbJAx1SVYP68D20mpGhP6U&usqp=CAU"
+                style="width: 150px"
+                alt="Brand"
+            /></a>
+          </div>
+          <div class="col-md-3 col-sm-4 col-6">
+            <a
+              class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter"
+              href="https://www.lakymen.com/es/"
+              ><img
+                class="d-block mx-auto"
+                src="https://www.lakymen.com/es/wp-content/uploads/2023/05/logo_laky.png"
+                style="width: 150px"
+                alt="Brand"
+            /></a>
+          </div>
+          <div class="col-md-3 col-sm-4 col-6">
+            <a
+              class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter"
+              href="https://colcafe.com/"
+              ><img
+                class="d-block mx-auto"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8q_c74bpPJhD7MsaEZ7oMom0k5XWSLtzTyQ&s"
+                style="width: 150px"
+                alt="Brand"
+            /></a>
+          </div>
+          <div class="col-md-3 col-sm-4 col-6">
+            <a
+              class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter"
+              href="https://pozuelo.com/inicio/"
+              ><img
+                class="d-block mx-auto"
+                src="https://co.findasense.com/wp-content/uploads/2018/01/ce-posuelo.png"
+                style="width: 200px"
+                alt="Brand"
+            /></a>
+          </div>
+          <div class="col-md-3 col-sm-4 col-6">
+            <a
+              class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter"
+              href="https://sula.hn/"
+              ><img
+                class="d-block mx-auto"
+                src="https://www.lacthosa.com/wp-content/uploads/2017/01/lacthosa-nuestras-marcas-logo-sula.png"
+                style="width: 150px"
+                alt="Brand"
+            /></a>
+          </div>
+          <div class="col-md-3 col-sm-4 col-6">
+            <a
+              class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter"
+              href="https://www.facebook.com/CloverBrandHN/?locale=es_LA"
+              ><img
+                class="d-block mx-auto"
+                src="https://jaremar.com/wp-content/uploads/2019/07/logo-clover-brand.png"
+                style="width: 150px"
+                alt="Brand"
+            /></a>
+          </div>
+          <div class="col-md-3 col-sm-4 col-6">
+            <a
+              class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter"
+              href="https://masecacentroamerica.com/productos-honduras/"
+              ><img
+                class="d-block mx-auto"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkLYf7VlRuzkpmru_P3OuGV2hnackwOcdi7w&s"
+                style="width: 150px"
+                alt="Brand"
+            /></a>
+          </div>
+          
+          
+          
+          
+        </div>
+      </section>
+      <!-- Product widgets-->
+      <section class="container pt-md-3 pb-4 pb-md-5 mb-lg-2">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-2 py-3">
+            <div class="widget">
+              <h3 class="widget-title">Bestsellers</h3>
+              <div class="d-flex align-items-center pb-2 border-bottom">
+                <a class="d-block" href="shop-single-v1.html"
+                  ><img
+                    src="https://pozuelo.com/wp-content/uploads/2023/09/POZ-WEB-GALLETAS-600x300-CREMAS-MIX.png"
+                    width="64"
+                    alt="Product"
+                /></a>
+                <div class="ps-2">
+                  <h6 class="widget-product-title">
+                    <a href="shop-single-v1.html">CREMAS MIXTAS</a>
+                  </h6>
+                  <div class="widget-product-meta">
+                    <span class="text-accent me-2">$15.<small>00</small></span>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex align-items-center py-2 border-bottom">
+                <a class="d-block" href="shop-single-v1.html"
+                  ><img
+                    src="https://pozuelo.com/wp-content/uploads/2023/10/POZ-WEB-GALLETAS-600x300-CREMAS-NUCITA.png"
+                    width="64"
+                    alt="Product"
+                /></a>
+                <div class="ps-2">
+                  <h6 class="widget-product-title">
+                    <a href="shop-single-v1.html">CREMAS NUCITA</a>
+                  </h6>
+                  <div class="widget-product-meta">
+                    <span class="text-accent me-2">$15.<small>50</small></span>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex align-items-center py-2 border-bottom">
+                <a class="d-block" href="shop-single-v1.html"
+                  ><img
+                    src="https://pozuelo.com/wp-content/uploads/2023/10/POZ-WEB-GALLETAS-600x300-CREMAS.png"
+                    width="64"
+                    alt="Product"
+                /></a>
+                <div class="ps-2">
+                  <h6 class="widget-product-title">
+                    <a href="shop-single-v1.html">CREMITAS POZUELO</a>
+                  </h6>
+                  <div class="widget-product-meta">
+                    <span class="text-accent me-2">$10.<small>50</small></span>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex align-items-center py-2">
+                <a class="d-block" href="shop-single-v1.html"
+                  ><img
+                    src="https://pozuelo.com/wp-content/uploads/2023/09/cremas-dark-600.png"
+                    width="64"
+                    alt="Product"
+                /></a>
+                <div class="ps-2">
+                  <h6 class="widget-product-title">
+                    <a href="shop-single-v1.html">CREMAS DARK</a>
+                  </h6>
+                  <div class="widget-product-meta">
+                    <span class="text-accent me-2">$9.<small>00</small></span>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-2 py-3">
+            <div class="widget">
+              <h3 class="widget-title">New arrivals</h3>
+              <div class="d-flex align-items-center pb-2 border-bottom">
+                <a class="d-block" href="shop-single-v1.html"
+                  ><img src="https://pozuelo.com/wp-content/uploads/2023/09/POZ-WEB-GALLETAS-600x300-SODA-ESPE.png" width="64" alt="Product"
+                /></a>
+                <div class="ps-2">
+                  <h6 class="widget-product-title">
+                    <a href="shop-single-v1.html">SODA ESPECIAS</a>
+                  </h6>
+                  <div class="widget-product-meta">
+                    <span class="text-accent me-2">$10.<small>99</small></span>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex align-items-center py-2 border-bottom">
+                <a class="d-block" href="shop-single-v1.html"
+                  ><img src="https://pozuelo.com/wp-content/uploads/2023/09/cocanas-principal-arrow.png" width="64" alt="Product"
+                /></a>
+                <div class="ps-2">
+                  <h6 class="widget-product-title">
+                    <a href="shop-single-v1.html">COCANAS
+                      POZUELO</a>
+                  </h6>
+                  <div class="widget-product-meta">
+                    <span class="text-accent me-2">$8.<small>50</small></span>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex align-items-center py-2 border-bottom">
+                <a class="d-block" href="shop-single-v1.html"
+                  ><img src="https://pozuelo.com/wp-content/uploads/2023/10/recreo-principal-arrow.png" width="64" alt="Product"
+                /></a>
+                <div class="ps-2">
+                  <h6 class="widget-product-title">
+                    <a href="shop-single-v1.html">RECREO
+                      POZUELO</a>
+                  </h6>
+                  <div class="widget-product-meta">
+                    <span class="text-accent me-2">$3.<small>00</small></span>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex align-items-center py-2">
+                <a class="d-block" href="shop-single-v1.html"
+                  ><img src="https://pozuelo.com/wp-content/uploads/2023/09/principal-2.png" width="64" alt="Product"
+                /></a>
+                <div class="ps-2">
+                  <h6 class="widget-product-title">
+                    <a href="shop-single-v1.html">YUMBO
+                      FIBRA</a>
+                  </h6>
+                  <div class="widget-product-meta">
+                    <span class="text-accent me-2">$5.<small>99</small></span>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 d-none d-lg-block">
+            <a class="d-block" href="https://www.mundopozuelo.com/"
+              ><img
+                class="d-block rounded-3"
+                src="https://pozuelo.com/wp-content/uploads/2024/05/mundo-pozuelo-home.png"
+                alt="Promo banner"
+            /></a>
+          </div>
+        </div>
+      </section>
+      <!-- Blog + Instagram info cards-->
+      
+    <!-- Footer-->
+    <footer class="footer bg-dark pt-5">
+      <div class="container">
+        <div class="row pb-2">
+          <div class="col-md-4 col-sm-6">
+            <div class="widget widget-links widget-light pb-2 mb-4">
+             
+              
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="widget widget-links widget-light pb-2 mb-4">
+              
+            </div>
+            <div class="widget widget-links widget-light pb-2 mb-4">
+              
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="widget pb-2 mb-4">
+              <h3 class="widget-title text-light pb-1">Stay informed</h3>
+              <form
+                class="subscription-form validate"
+                action="#"
+                method="post"
+                name="mc-embedded-subscribe-form"
+                target="_blank"
+                novalidate
+              >
+                <div class="input-group flex-nowrap">
+                  <i
+                    class="ci-mail position-absolute top-50 translate-middle-y text-muted fs-base ms-3"
+                  ></i>
+                  <input
+                    class="form-control rounded-start"
+                    type="email"
+                    name="EMAIL"
+                    placeholder="Your email"
+                    required
+                  />
+                  <button
+                    class="btn btn-primary"
+                    type="submit"
+                    name="subscribe"
+                  >
+                    Subscribe*
+                  </button>
+                </div>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div
+                  style="position: absolute; left: -5000px"
+                  aria-hidden="true"
+                >
+                  <input
+                    class="subscription-form-antispam"
+                    type="text"
+                    name="b_c7103e2c981361a6639545bd5_29ca296126"
+                    tabindex="-1"
+                  />
+                </div>
+                <div class="form-text text-light opacity-50">
+                  *Subscribe to our newsletter to receive early discount offers,
+                  updates and new products info.
+                </div>
+                <div class="subscription-status"></div>
+              </form>
+            </div>
+            <div class="widget pb-2 mb-4">
+              
+              <div class="d-flex flex-wrap">
+                <div class="me-2 mb-2">
+                  
+                </div>
+                <div class="mb-2">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pt-5 bg-darker">
+        <div class="container">
+          <div class="row pb-3">
+            <div class="col-md-3 col-sm-6 mb-4">
+              <div class="d-flex">
+                
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+              <div class="d-flex">
+               
+                <div class="ps-3">
+                  <h6 class="fs-base text-light mb-1"></h6>
+                  <p class="mb-0 fs-ms text-light opacity-50">
+                    
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+              <div class="d-flex">
+                
+                <div class="ps-3">
+                  <h6 class="fs-base text-light mb-1"></h6>
+                  <p class="mb-0 fs-ms text-light opacity-50">
+                    
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+              <div class="d-flex">
+                
+                <div class="ps-3">
+                  <h6 class="fs-base text-light mb-1"></h6>
+                  <p class="mb-0 fs-ms text-light opacity-50">
+                    
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="hr-light mb-5" />
+          <div class="row pb-2">
+            <div class="col-md-6 text-center text-md-start mb-4">
+              <div class="text-nowrap mb-4">
+                <a class="d-inline-block align-middle mt-n1 me-3" href="#"
+                  ><img
+                    class="d-block"
+                    src="img2/loguito3.png"
+                    width="117"
+                    alt="Cartzilla"
+                /></a>
+                <div class="btn-group dropdown disable-autohide">
+                  
+                    
+                  </button>
+                  <ul class="dropdown-menu my-1">
+                    <li class="dropdown-item">
+                      <select class="form-select form-select-sm">
+                       
+                      </select>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
+              <div class="widget widget-links widget-light">
+                
+              </div>
+            </div>
+            <div class="col-md-6 text-center text-md-end mb-4">
+              <div class="mb-3">
+                <a class="btn-social bs-light bs-twitter ms-2 mb-2" href="https://x.com/?lang=es"
+                  ><i class="ci-twitter"></i></a
+                ><a class="btn-social bs-light bs-facebook ms-2 mb-2" href="https://www.facebook.com/?locale=es_LA"
+                  ><i class="ci-facebook"></i></a
+                ><a class="btn-social bs-light bs-instagram ms-2 mb-2" href="https://www.instagram.com/"
+                  ><i class="ci-instagram"></i></a
+                ><a class="btn-social bs-light bs-pinterest ms-2 mb-2" href="https://www.pinterest.es/"
+                  ><i class="ci-pinterest"></i></a
+                ><a class="btn-social bs-light bs-youtube ms-2 mb-2" href="https://www.youtube.com/"
+                  ><i class="ci-youtube"></i
+                ></a>
+              </div>
+              <img
+                class="d-inline-block"
+                src="img/cards-alt.png"
+                width="187"
+                alt="Payment methods"
+              />
+            </div>
+          </div>
+          <div
+            class="pb-4 fs-xs text-light opacity-50 text-center text-md-start"
+          >
+            © All rights reserved.
+            <a
+              class="text-light"
+              href="https://createx.studio/"
+              target="_blank"
+              rel="noopener"
+              ></a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Toolbar for handheld devices (Default)-->
+    
+    <!-- Back To Top Button--><a class="btn-scroll-top" href="#top" data-scroll
+      ><span class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span
+      ><i class="btn-scroll-top-icon ci-arrow-up"> </i
+    ></a>
+    <!-- Vendor scrits: js libraries and plugins-->
+    <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/simplebar/dist/simplebar.min.js"></script>
+    <script src="vendor/tiny-slider/dist/min/tiny-slider.js"></script>
+    <script src="vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <!-- Main theme script-->
+    <script src="js/index.js"></script>
+  </body>
+
+  <!-- Mirrored from cartzilla.createx.studio/home-fashion-store-v2.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 12 Aug 2022 18:16:22 GMT -->
+</html>
